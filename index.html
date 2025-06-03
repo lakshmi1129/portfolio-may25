@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Princess+Sofia&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Solway:wght@300;400;500;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Animate style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- AOS animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- header -->
+        <nav>
+            <!-- logo -->
+            <img class="logo" src="./images/logo.png" alt="logo">
+            <!-- links -->
+            <ul>
+                <li class="list-items"> <a class="links" href="#home">Home</a></li>
+                <li class="list-items"> <a class="links" href="#about">About</a></li>
+                <li class="list-items"> <a class="links" href="#skill">Skills</a></li>
+                <li class="list-items"> <a class="links" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Home -->
+        <section id="home">
+            <div class="home-content">
+                <h1 class="animate__animated animate__bounce" id="username">I'm Angle <span id="lname">Maria</span></h1>
+                <p id="user-details">This is my official portfolio website to describe all <br>
+                    Details and work experience in Web Development
+                </p>
+                <a id="download" href="./images/resume-sample-1-2.pdf" download>DOWNLOAD CV</a>
+            </div>
+            <div class="home-img">
+                <!-- shape -->
+                <img id="shape" src="./images/bg-final.png" alt="shape" class="group1">
+                <!-- girl -->
+                <img id="girl" src="./images/businesslady-final.png" alt="girl" class="group1">
+            </div>
+        </section>
+        <!-- About -->
+        <section id="about">
+            <div class="sectionHead">
+                <h2 class="mainHead">About Me</h2>
+                <span class="subHead">Introduction</span>
+            </div>
+            <div class="aboutBody">
+                <div data-aos="fade-right" class="aboutImage">
+                    <img class="img1" src="./images/aboutme.jpg" alt="about">
+                </div>
+                <div class="aboutContent">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quae saepe repellendus maxime
+                        quod, earum, aut deleniti iste alias, optio culpa? Officia omnis dolore cum assumenda unde aut
+                        placeat perspiciatis!
+                        Possimus dignissimos nobis eius, aut similique incidunt placeat quas, ipsum esse</p>
+                    <div class="information">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Angle Maria</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>1234556789</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>abc@123</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Skills -->
+        <section id="skill">
+            <div class="sectionHead">
+                <h2 class="mainHead">Skills</h2>
+                <span class="subHead">My Skills</span>
+            </div>
+            <div class=" skillContent">
+                <div class="progressBar">
+                    <!-- progress bars -->
+                    <div class="bars">
+                        <h3 class="barHead">HTML</h3>
+                        <span class="barPercentage">82%</span>
+                        <div class="baseBar"></div>
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                            class="baseBar htmlBar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barHead">CSS</h3>
+                        <span class="barPercentage">80%</span>
+                        <div class="baseBar"></div>
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                            class="baseBar cssBar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barHead">JS</h3>
+                        <span class="barPercentage">62%</span>
+                        <div class="baseBar"></div>
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                            class="baseBar jsBar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barHead">React</h3>
+                        <span class="barPercentage">72%</span>
+                        <div class="baseBar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine"
+                            class="baseBar reactBar"></div>
+                    </div>
+                </div>
+                <div data-aos="fade-left" class="skillImage">
+                    <img class="mySkill" src="./images/skill.jpg" alt="skills">
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section id="contact">
+            <div class="sectionHead">
+                <h2 class="mainHead">Contacts</h2>
+                <span class="subHead">My Contacts</span>
+            </div>
+            <!-- icons -->
+            <div class="iconCollections">
+                <!-- linkedin -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/lakshmi-priya-k-m-45528b258/" target="_blank"><i
+                            class="fa-brands fa-linkedin-in brands"></i></a>
+                </div>
+                <!-- github -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/lakshmi-priya-k-m-45528b258/" target="_blank"><i
+                            class="fa-brands fa-github brands"></i></a>
+                </div>
+                <!-- twitter -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/lakshmi-priya-k-m-45528b258/" target="_blank"><i
+                            class="fa-brands fa-twitter brands"></i></a>
+                </div>
+                <!-- instagram -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/lakshmi-priya-k-m-45528b258/" target="_blank"><i
+                            class="fa-brands fa-instagram brands"></i></a>
+                </div>
+                <!-- watsapp -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/lakshmi-priya-k-m-45528b258/" target="_blank"><i
+                            class="fa-brands fa-whatsapp brands"></i></a>
+                </div>
+                <!-- facebook -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/lakshmi-priya-k-m-45528b258/" target="_blank"><i
+                            class="fa-brands fa-facebook-f brands"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer>
+            <p id="copyright"> &copy; My portfolio Website -June 2024, All RightsReserved to &reg; Maria Joe</p>
+            <div class="icon upArrow">
+                <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+            </div>
+        </footer>
+    </div>
+
+</body>
+<!-- AOS cdn Script  -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>

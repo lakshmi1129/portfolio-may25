@@ -1,0 +1,147 @@
+
+          --------------------------------------------------------------------      
+                                         MERAN STACK
+         --------------------------------------------------------------------
+
+
+        ------------------------------------------------------------------------------
+                                             HTML
+        ------------------------------------------------------------------------------
+
+1. Markup language  :   Its a set of instructions/rules that define what type of content a document should hold.
+2. HTML : Hyper Text markup language -  used to display contents in a web page
+3. HTML Document: collection of HTML elements.
+    - HTML elements:  Starting tag - Content - Ending Tag
+    - Tag: <...> , content in between the symbol.
+           eg. <html> 
+          -  Closing tag: </....>
+    - Structure of HTML 
+        <html>
+            <head>
+                <title> ...</title>
+            </head>
+            <body>
+                contents to be displayed in webpage
+            </body>
+        </html>
+4. Latest version of HTML: HTML5
+5. Basic tags of HTML : used to display content in webpage
+    - Heading tag: h1-h6 tags
+    - Paragraph: p tag
+    - Text Formating Tags:
+        - bold: b, strong tag
+        - Italics: em tag
+        - Highlight: mark tag
+        - Superlative : sup tag
+        - Subscript: sub tag
+        - Break : br tag
+    - Links: a tag
+    - Lists:
+        - OrderedList : ol tag, li tag
+        - Unordered List: ul tag, li tag
+        - Description List:  dl tag, dt tag, dd tag
+    - Table: 
+        - table tag, thead, tbody, th, tr, td tags
+    - Image - img tag
+    - Container tags:
+        - div tag
+        - article tag
+        - section tag
+    - Video- video tag
+    - Embed - Contents available in other website used in our website - iframe
+    - Form Elements:
+        - form tag
+        - User input: input tag
+
+6. Based on the display value in the browser , we can classify HTML tags as,
+    - Block Elements: It use the entire width of the browser to display content in browser.
+        eg: h1-h6 tags, p tag
+    - Inline Elements: It use only width of the content to display content in browser
+        eg: a tag , img tag
+7. Semantic tag: describes its meaning to both browser and developer
+    - header tag
+    - footer tag
+    - nav tag
+    - section tag
+    - article tag
+    - aside tag
+
+
+    ------------------------------------------------------------------------------
+                         CSS - Cascading Style Sheet
+    ------------------------------------------------------------------------------
+
+    1. Used to give style to html elements
+    2. Ways to apply CSS in HTMl elements
+        - Inline CSS:  use  style attribute
+            - syntax: style="property:value;"
+        - Internal CSS:  use style tag
+            - syntax: <style>
+                        selector{
+                            property:value;
+                        }
+                      </style>
+        - External CSS : use External CSS file, we have to link the css file to HTMl file
+            - syntax: selector{
+                            property:value;
+                        }
+    3. CSS selectors: Used for selecting html elements to css file
+        - tag name
+        - id - #
+        - class - .
+        - universal selector - *
+        - CSS combinators
+            - Grouping Selectors -  using comma
+            - Decendant Selector -  using space
+            - Child selector - using >
+            - Sibling Selector - using ~
+            - Immidiate Sibling selector - using +
+    4. Box model:
+        - Border
+        - Margin
+        - Padding
+    5. Css properties:
+        - Float : Float elements in left or right
+        - Position : control the position of elements
+            - static
+            - fixed
+            - relative
+            - absolute
+            - Sticky
+        - Z-index
+        - Flexbox : used to arrange html elements in either row/column
+            - flex-container:  parent tag which hold elemets that to be arranged as row/column, flex should apply to the parent
+             - flex-direction
+             - justify-content
+             - align-items
+        - Pseudo Class :  define a special state of an element
+            - Syntax: selector:pseudo-class {
+                            property: value;
+                            }
+        - Grid:  used to diplay elements in row and column, where we can fix the column width
+            - Grid Container - the parent (container) <div> element to display a grid.
+                - Grid-template-column /row :  used to set the width of column/row
+                - Gap: used to set space between row and column.
+            - Grid Items - the items inside the container <div>
+        - Linear Gradient : It is used to set combination of colors as background
+            -syntax: background-image: linear-gradient(direction,color1,color2....)
+        - Animation in CSS: Animation property  will be,    Animation: animation-name duration
+            - define animation using @keyframes
+            - Animation Libraries:
+                - animate-style: https://animate.style/
+                - Aos Animation : https://michalsnik.github.io/aos/
+                - locomotive scroll
+        - Web hosting: web server
+            - Netlify
+            - Github pages
+            - Vercel
+
+             ------------------------------------------------------------------------------
+                         GIT & GITHUB
+              ------------------------------------------------------------------------------
+
+    1. GIT:  Used to control version of a code
+    2. GIT Commands:
+            - git status: used to check status of git inside folder
+            - git init: used to create/initialize git repository in a folder
+            - git add . : used to track all untracked files to git
